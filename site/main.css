@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff;
+  }
+  h1 {
+    color: rgb(85, 163, 124);
+    text-align: center;
+
+  }
+  p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+
+
+  }
+
+  img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    width: 500px;
+  }
+
+
+/* טבלה */ 
+  table, th, td {
+    border: 1px solid black;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+
+  hr.new1 {
+    width: 8%;
+    border: 2px solid green;
+  border-radius: 5px;
+    
+  }
+
+  hr.idk {
+    width: 8%;
+    border: 2px solid green;
+  border-radius: 5px;
+}
+
+h2 {
+  color: rgb(85, 163, 124);
+  text-align: center;
+  }
+
+  hr.now {
+  color: gray;
+  bottom: 0;
+  }
+  
+
+    .xboxmp {
+      top:0%;
+      right: 40px;;
+      }
+
+      video {
+        
+        text-align: center;
+      }
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: green;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+
+      @media only screen and (min-device-width: 400px) {
+        body {     color:rgb(15, 15, 15);    } }
+
+
+        @media only screen and (min-device-width: 768px) {
+          body {     color:red;    } }
+
+
+          @media only screen and (min-device-width: 414px) {
+            body {   color:rgb(62, 63, 62);    } }
+            
+            
