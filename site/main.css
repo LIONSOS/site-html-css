@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #fcf6e6;
   }
   h1 {
     color: rgb(85, 163, 124);
@@ -52,10 +52,6 @@ h2 {
   text-align: center;
   }
 
-  hr.now {
-  color: gray;
-  bottom: 0;
-  }
   
 
     .xboxmp {
@@ -63,16 +59,24 @@ h2 {
       right: 40px;;
       }
 
-      video {
-        
-        text-align: center;
+      .video {
+        margin-left: auto;
+        margin-right: auto;
       }
+      
+      .alignleft {
+        float: left;
+      }
+      .alignright {
+        float: right;
+      }
+      
 
 /* Style the list */
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: #eee;
+  background-color: #fcf6e6;
 }
 
 /* Display list items side by side */
