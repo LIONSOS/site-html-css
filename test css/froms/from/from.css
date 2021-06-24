@@ -1,0 +1,43 @@
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+}
+
+hr.idk {
+    width: 16%;
+    border: 2px solid rgb(56, 56, 56);
+  border-radius: 2px;
+}
+
+ul li::marker {
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+
+
+  }
+
+
+
+  form {
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  
+  hr.Hello {
+    width: 5%;
+    border: 1px solid rgb(56, 56, 56);
+  border-radius: 2px;
+  }
