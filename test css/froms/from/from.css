@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-    background-color: gray;
+    background-color: rgba(165, 161, 161, 0.781);
 }
 
 hr.idk {
@@ -22,22 +22,38 @@ ul li::marker {
 
 
   }
-
-
-
-  form {
-
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-
-  h2 {
-      text-align: center;
-  }
-
   
-  hr.Hello {
-    width: 5%;
-    border: 1px solid rgb(56, 56, 56);
-  border-radius: 2px;
+  .alignleft {
+    float: left;
   }
+  .alignright {
+    float: right;
+  }
+  
+
+  hr.footerhr {
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 2px;
+  }
+  
+  hr.Ofek{
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 1px;
+  }
+
+  footer {
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    }
+
+    @media only screen and (min-device-width: 400px) {
+      body {     color:rgb(15, 15, 15);    } }
+
+
+      @media only screen and (min-device-width: 768px) {
+        body {     color:red;    } }
+
+
+        @media only screen and (min-device-width: 414px) {
+          body {   color:rgb(62, 63, 62);    } }
+          
