@@ -27,9 +27,9 @@
 
           <div style="display:flex;justify-content:center;align-items:center;"><form action="/action_page.php">
             <label for="fname">שם:</label><br>
-            <input type="text" id="fname" name="fname" value="X"><br>
+            <input type="text" id="fname" name="fname" required><br>
             <label for="lname">שם משפחה:</label><br>
-            <input type="text" id="lname" name="lname" value="X"><br><br>
+            <input type="text" id="lname" name="lname" required><br><br>
           </form> 
             <div></div>
           </div>
@@ -63,15 +63,48 @@
             <textarea id="reporting" name="reporting" rows="4" cols="50">
               </textarea>
               <p>נא לרשום את האיימל בצורה מדויקת. </p>
-              <form action="/action_page.php">
+
+              <form action="/action_page.php" onsubmit="alert('הטופס נשלח בהצלחה!'); return false;">
                 <label for="email">איימל:</label>
                 <input type="email" id="email" name="email">
-                <input type="submit">
-
                         </form>
           </div>
 
+          <button onclick="document.getElementById('id01').style.display='block'">שליחה</button>
+
+          <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+              <div class="container">
+                <h1>אזהרה</h1>
+                <p>האם אתה בטוח שככה אתה רוצה להגיש את הטופס?</p>
+              
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">כן</button>
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">לא</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
           
+
+
+          <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+            
+
+
 
   <br>
   <br>
@@ -89,13 +122,13 @@
   <br>
   <br>
   <br>
-
-          <hr class="Ofek">
           <footer>
+          <hr class="Ofek">
             <p class="alignleft">כל הזכויות שמורות לבעלי האתר.</p>
             <p class="alignright"> <a href="https://support.xbox.com/he-IL/contact-us" target="_blank">תמיכה טכנית!</p>
-            </footer>
           </div>
+        </footer>
+
 
     
     
